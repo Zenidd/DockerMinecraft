@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  minecraft:
+    build: .
+    hostname: minecraft-server
+    restart: always
+    environment:
+    - JAVA_XMS=2048M
+    - JAVA_XMX=2048M
+    - MINECRAFT_VERSION=1.16.5
+    ports:
+      - "25565:25565"
+    volumes:
+      - minecraft:/root/minecraft
+
+volumes:
+  minecraft:
