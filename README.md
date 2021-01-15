@@ -4,9 +4,9 @@ A simple dockerized Minecraft Server
 
 ## Prerequisites
 
-- Docker
-- Docker compose
-- Git
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker compose](https://docs.docker.com/compose/install/)
+- [Git](https://github.com/git-guides/install-git)
 
 ## Launch
 
