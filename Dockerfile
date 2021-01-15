@@ -1,5 +1,8 @@
 FROM ubuntu:18.04
 
+#Default Minecraft version
+ARG MINECRAFT_VERSION=1.16.5
+
 #Get prerequisites
 RUN apt-get update && apt-get install curl openjdk-8-jdk -y
 
