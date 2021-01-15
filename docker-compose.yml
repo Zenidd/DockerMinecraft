@@ -4,7 +4,7 @@ services:
   minecraft:
     build: .
     hostname: minecraft-server
-    restart: always
+    restart: unless-stopped
     environment:
     - JAVA_XMS=2048M
     - JAVA_XMX=2048M
