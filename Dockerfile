@@ -17,7 +17,7 @@ ENV JAVA_XMX=$JAVA_XMX
 
 #Create minecraft dir and download Minecraft java version
 RUN mkdir minecraft && cd minecraft \
-    && curl -o server.jar https://cdn.getbukkit.org/spigot/spigot-${MINECRAFT_VERSION}.jar 
+    && curl -o server.jar https://minecraftdocker.s3-us-west-1.amazonaws.com/spigot-${MINECRAFT_VERSION}.jar
 
 #Copy configuration files
 COPY ./config/* minecraft/
