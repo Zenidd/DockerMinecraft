@@ -5,10 +5,12 @@ services:
     build: .
     hostname: minecraft-server
     restart: unless-stopped
+    stdin_open: true
+    tty: true
     environment:
     - JAVA_XMS=2048M
     - JAVA_XMX=2048M
-    - MINECRAFT_VERSION=1.16.5
+    - MINECRAFT_VERSION=1.16.4
     ports:
       - "25565:25565"
     volumes:
