@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 ARG MINECRAFT_VERSION=1.16.5
 
 #Get prerequisites
-RUN apt-get update && apt-get install curl openjdk-8-jdk -y
+RUN apt-get update && apt-get install unzip curl openjdk-8-jdk -y
 
 WORKDIR "/root"
 
