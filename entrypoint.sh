@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /root/minecraft
-java -Xmx${JAVA_XMS} -Xms${JAVA_XMX} -jar server.jar nogui
+exec java -Xmx${JAVA_XMX} -Xms${JAVA_XMS} -jar server.jar nogui
