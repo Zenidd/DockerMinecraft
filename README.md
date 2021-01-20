@@ -13,8 +13,12 @@ A simple dockerized Minecraft Server
 ```bash
 git clone https://github.com/Zenidd/DockerMinecraft.git
 cd DockerMinecraft
-docker-compose up
+docker-compose up -d
 ```
+## Recommended launcher
+
+- [TLauncher](https://tlauncher.org/en/)
+
 
 ## Misc
 
