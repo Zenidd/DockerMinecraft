@@ -10,7 +10,7 @@ services:
     environment:
     - JAVA_XMS=2048M
     - JAVA_XMX=2048M
-    - MINECRAFT_VERSION=1.16.4
+    - MINECRAFT_VERSION=1.19.4
     ports:
       - "25565:25565"
     volumes:
