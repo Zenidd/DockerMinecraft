@@ -15,14 +15,15 @@ git clone https://github.com/Zenidd/DockerMinecraft.git
 cd DockerMinecraft
 docker-compose up -d
 ```
+
 ## Recommended launcher
 
-- [TLauncher](https://tlauncher.org/en/)
-
+- [SKLauncher](https://skmedix.pl/)
 
 ## Misc
 
-Mount server related volume on lightweight alpine image
+Mount the server related volume on lightweight alpine image
+
 ```bash
 docker run --rm -ti -v dockerminecraft_minecraft:/data alpine sh
 ```
