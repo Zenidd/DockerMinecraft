@@ -8,9 +8,9 @@ services:
     stdin_open: true
     tty: true
     environment:
-    - JAVA_XMS=2048M
-    - JAVA_XMX=2048M
-    - MINECRAFT_VERSION=1.19.4
+    - JAVA_XMS=${JAVA_XMS}
+    - JAVA_XMX=${JAVA_XMX}
+    - MINECRAFT_VERSION=${MINECRAFT_VERSION}
     ports:
       - "25565:25565"
     volumes:
