@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   minecraft:
-    build: .
+    image: zenidd/minecraft:1.19.4
     hostname: minecraft-server
     restart: unless-stopped
     stdin_open: true
